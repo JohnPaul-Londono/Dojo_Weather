@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400&display=swap');
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    margin: 0 auto;
+}
+/* nav bar rules */
+.navbar{
+    background-color: rgb(89 209 245);
+    height: 60px ;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    color: white;
+    /* margin: 0 auto; */
+}
+
+.innercontainer{
+    height: 40px;
+    /* border: black dotted; */
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cities{
+    display: flex;
+    gap: 40px;
+    margin-right: 20px;
+}
+.maincontainer{
+    width: 750px;
+    min-height: 600px;
+    margin: 0 auto;
+    /* border: slategrey dotted; */
+}
+
+ /* weather navigation bar rules */
+.weathernavbar{
+    /* border: dotted black; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+#sanjose{
+    font-size: 27px;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+ margin-right: 5px;
+}
+.tempnav{
+    justify-content: flex-end;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#tempselect{
+    padding: 5px 0px;
+}
+/* pagebreak line */
+#pagebreak{
+    width: 750px;
+    height: 3px;
+    background-color: rgb(148, 163, 179);
+}
+/* different forecast rules */
+.mainforecast{
+    display: flex;
+    justify-content: space-between;
+
+}
+.box1{
+    text-align: center;
+    height: 280px;
+    width: 175px;
+    /* align-items: center; */
+    /* border: gray dotted; */
+    background-color: #eeeeee ;
+    /* margin: 0 auto; */
+    margin-top: 20px;
+    /* padding-top: 25px; */
+    /* justify-content: space-between; */
+}
+.date{
+    font-size: 30px;
+}
+.clouds{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+.degrees{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+    font-size: 20px;
+}
+#red1, #red2, #red3, #red4{
+    color: red;
+}
+#blue1, #blue2, #blue3, #blue4{
+    color: blue;
+}
+
+/* cookie rules */
+
+
+
+
+#cookies{
+    background-color: #eeeeee;
+    min-height: 80px;
+    width: 750px; 
+    bottom: 30px;
+    position: fixed;
+    border: 3px solid;
+    border-radius: 1%;
+    /* left: 25%; */
+    left: 345px;
+    display: flex;
+    align-items: center;
+    
+}
+
+#cookiesimg{
+    /* border: black dotted; */
+    /* flex: 1; */
+    width: 60px;
+    height: 60px;
+    padding: 0px 20px;
+    
+}
+.cookietxt{
+    margin-right: 40px;
+}
+
+.accept{
+    border: black solid;
+    background-color: rgb(89 209 245);
+    width: 150px;
+    margin-right: 20px;
+    padding: 5px 0px;
+    box-shadow: 3px 3px;;
+    
+}
+
+/* nav bottom rules */
+#navbottom{
+    background-color: rgb(89, 209, 245);
+    min-height: 15px;
+    width: 100%; 
+    bottom: 0px;
+    position: fixed;
+}
