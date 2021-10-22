@@ -26,7 +26,7 @@
             <p id="sanjose">San Jose</p>
             <div class="tempnav">
                 <p> show temperature in </p>
-                <select name="temp" id="tempselect" onchange="ontemp(this)">
+                <select name="temp" id="tempselect" onchange="onTemp(this)">
                     <option value="° C" >° C</option>
                     <option value="° F" >° F</option>
                 </select>
@@ -42,8 +42,8 @@
                 <img class="clouds" src="./imgs/some_rain.png" alt="some-rain">
                 <p>some rain</p>
                 <div class="degrees">
-                    <p id="red1">24°</p>
-                    <p id="blue1">18°</p>
+                    <p class="red"><span class="temperature">24</span>°</p>
+                    <p class="blue"><span class="temperature">18</span>°</p>
                 </div>
             </div>
             <div class="box1">
@@ -51,8 +51,8 @@
                 <img class="clouds" src="./imgs/some_sun.png" alt="some-sun">
                 <p>some sun</p>
                 <div class="degrees">
-                    <p id="red2">27°</p>
-                    <p id="blue2">19°</p>
+                    <p class="red"><span class="temperature">27</span>°</p>
+                    <p class="blue"><span class="temperature">19</span>°</p>
                 </div>
             </div>
             <div class="box1">
@@ -60,8 +60,8 @@
                 <img class="clouds" src="./imgs/some_clouds.png" alt="some-clouds">
                 <p>some clouds</p>
                 <div class="degrees">
-                    <p id="red3">21°</p>
-                    <p id="blue3">16°</p>
+                    <p class="red"><span class="temperature">21</span>°</p>
+                    <p class="blue"><span class="temperature">16</span>°</p>
                 </div>
             </div>
             <div class="box1">
@@ -69,13 +69,13 @@
                 <img class="clouds" src="./imgs/some_sun.png" alt="some-sun">
                 <p>some sun</p>
                 <div class="degrees">
-                    <p id="red4">26°</p>
-                    <p id="blue4">21°</p>
+                    <p class="red"><span class="temperature">26</span>°</p>
+                    <p class="blue"><span class="temperature">21</span>°</p>
                 </div>
             </div>
         </div>
     </div>
-    <div id="cookies">
+    <div id="cookies"> 
         <img id="cookiesimg" src="./imgs/cookie.png" alt="">
         <div class="cookietxt">
            <h2>Stop! Cookie time</h2> 

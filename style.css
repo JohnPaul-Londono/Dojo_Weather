@@ -98,10 +98,10 @@ body{
     margin: 0px 20px;
     font-size: 20px;
 }
-#red1, #red2, #red3, #red4{
+.red {
     color: red;
 }
-#blue1, #blue2, #blue3, #blue4{
+.blue{
     color: blue;
 }
 
